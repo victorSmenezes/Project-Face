@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .input-face{
-        @apply border-gray-300 text-lg rounded-md border w-full h-14 mb-2.5 pl-2;
+@layer components {
+    .input-face {
+        @apply border-gray-300 rounded-md border w-full h-14 mb-2.5 pl-4;
+    }
+}
+
+@layer base {
+    html {
+     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     }
 }

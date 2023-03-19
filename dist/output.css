@@ -419,6 +419,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -521,9 +525,7 @@ video {
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
-  padding-left: 0.5rem;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  padding-left: 1rem;
 }
 
 .mx-0 {
@@ -568,16 +570,12 @@ video {
   height: 3rem;
 }
 
-.h-48 {
-  height: 12rem;
+.h-56 {
+  height: 14rem;
 }
 
 .h-full {
   height: 100%;
-}
-
-.w-2\/4 {
-  width: 50%;
 }
 
 .w-390 {
@@ -606,6 +604,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -649,6 +651,11 @@ video {
   padding: 1rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -677,9 +684,11 @@ video {
   text-align: center;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-28x {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: -0.01em;
+  font-weight: 400;
 }
 
 .text-6xl {
@@ -687,19 +696,24 @@ video {
   line-height: 1;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -710,14 +724,19 @@ video {
   font-weight: 500;
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .text-blue-facebook {
   --tw-text-opacity: 1;
   color: rgb(24 119 242 / var(--tw-text-opacity));
+}
+
+.text-gray-footer {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+.text-gray-text {
+  --tw-text-opacity: 1;
+  color: rgb(28 30 33 / var(--tw-text-opacity));
 }
 
 .text-white {
