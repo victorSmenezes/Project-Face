@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,45 @@
     <title>Facebook - entre ou cadastre-se</title>
     <link href="/dist/output.css" rel="stylesheet">
 </head>
+
 <body>
-    <section class="w-screen h-screen bg-gray-facebook flex items-center justify-center">
-        <div class="w-580 pr-8">
-            <h1 class='text-blue-facebook font-bold text-5xl pb-2.5'>facebook</h1>
-            <p class="text-2xl text-black w-10/12">
+    <section class="w-full h-full bg-gray-facebook flex justify-center pb-48">
+        <div class="w-580 pr-7  mt-48">
+            <h1 class='text-blue-facebook font-bold text-6xl pb-2.5'>facebook</h1>
+            <p class="text-3xl text-black ">
                 O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
             </p>
         </div>
 
-        <div class="pt2">
-            <form action="">
-                <input type="email" placeholder="Entre ou telefone">
-                <input type="password" placeholder="Senha">
-                <button type="button" class="button-entrar">Entrar</button>
-                
-                <a>Esqueceu a senha?</a>
-                <hr>
-            </form>
+        <div class="mt-32">
+            <div class="bg-white p-4 w-390 rounded-lg shadow-xl">
+                <form class="flex flex-col justify-center items-center">
+                    <input class="input-face" type="email" placeholder="Email ou telefone">
+                    <input class="input-face" type="password" placeholder="Senha">
+                    <button type="button"
+                        class="bg-blue-facebook rounded-md w-full h-12 mb-2.5 pl-2 font-bold text-white text-xl">Entrar</button>
 
-            <p>
-                Criar uma Página para uma celebridade, uma marca ou uma 
+                    <a href="#" class="text-blue-facebook my-2">Esqueceu a senha?</a>
+                    <hr class="w-full border-1 mt-4 mb-7 border-gray-300">
+
+                    <button type="button"
+                        class="bg-green-facebook rounded-md w-2/4 h-12 mb-2.5 font-medium text-white text-lg mx-0">
+                        Criar nova conta</button>
+            </div>
+            </form>
+            <p class="w-400 text-base text-center pt-6">
+                <a href="#" class="font-bold">Criar uma Página</a> para uma celebridade, uma marca ou uma
                 empresa.
             </p>
         </div>
     </section>
+    
+    <footer class="w-6/12 h-48 bg-white items-center justify-center">
+        <a href="index.html">Português (Brasil)</a>
+        <hr>
+        <a href="#">Victor Santos</a>
+
+    </footer>
 </body>
+
 </html>
