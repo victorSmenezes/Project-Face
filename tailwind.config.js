@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      screens:{
+        'sm': '320px',
+      },
       colors:{
         'blue-facebook': '#1877F2',
         'gray-facebook': '#F0F2F5',
