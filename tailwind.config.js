@@ -8,8 +8,9 @@ module.exports = {
       },
       colors:{
         'blue-facebook': '#1877F2',
+        'blue-face': '#003EFF',
         'gray-facebook': '#F0F2F5',
-        'green-facebook': '#50ff2d',
+        'green-facebook': '#61FF00',
         'gray-text':'#1c1e21',
         'gray-footer': '#737373'
       },
